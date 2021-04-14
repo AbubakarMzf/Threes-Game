@@ -1,0 +1,36 @@
+from user_entries import *
+
+def test_get_user_move() : 
+	print("==== TESTS FONCTION get_user_move() ====")
+	print("on test en entrant N majuscule, la fonction doit retourner N majuscule")
+	lettre = get_user_move()
+	print(lettre)
+	print("== TEST VALIDE ==")
+	print("==== TESTS NUMERO 2 FONCTION get_user_move() ====")
+	print("on test en entrant l minuscule, la fonction doit retourner L majuscule")
+	lettre = get_user_move()
+	print(lettre)
+	print("== TEST VALIDE ==")
+	print("==== TESTS NUMERO 3 FONCTION get_user_move() ====")
+	print("on test en entrant z, la fonction doit redemander la saisie au joueur jusqu'à une saisie valide")
+	lettre = get_user_move()
+	print(lettre)
+	print("== TEST VALIDE ==")
+
+
+def test_get_user_menu() : 
+	print("==== TESTS FONCTION get_user_move() ====")
+	print("on test en entrant H majuscule, la fonction doit retourner H majucule")
+	lettre = get_user_move()
+	print(lettre)
+	print("== TEST VALIDE ==")
+	print("==== TESTS NUMERO 2 FONCTION get_user_move() ====")
+	print("on test en entrant b minuscule, la fonction doit retourner b majuscule")
+	lettre = get_user_move()
+	print(lettre)
+	print("== TEST VALIDE ==")
+	print("==== TESTS NUMERO 3 FONCTION get_user_move() ====")
+	print("on test en entrant z, la fonction doit redemander la saisie au joueur jusqu'à une saisie valide")
+	lettre = get_user_move()
+	print(lettre)
+	print("== TEST VALIDE ==")
